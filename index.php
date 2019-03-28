@@ -12,11 +12,25 @@
 <div class="title-bar-title">Menu</div>
 </div>
 
-<?php require_once "nav.php" ?>
+
+
+<div id="backgroundMain" class="show-for-large, show-for-medium">
+  <div id="overlay">
+    <?php require_once "nav.php" ?>
+  <div class="row">
+    <div id="introduction-overlay" class="large-12 columns">
+        <?php require_once "introduction.php" ?>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
 
 
 <br>
-<?php require_once "introduction.php" ?>
+
 
 <?php require_once "project-grid.php" ?>
 

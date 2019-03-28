@@ -1,4 +1,71 @@
+
+
+#backgroundMain {
+  background-image: url("../assets/black-coffee.jpg");
+  background-size:cover;
+  height: 600px;
+
+}
+
+/* NAVAGRATION */
+
+.top-bar {
+    background: rgba(35, 35, 35, 0.78);
+    overflow: visible;
+}
+
+.top-bar ul {
+  background-color: transparent;
+}
+
+.top-bar-left .menu-text {
+  color: rgba(255, 255, 255, 0.83);
+}
+
+.top-bar a{
+  color: #b5cfe0;
+}
+
+.top-bar a:hover{
+  color: #8796a0;
+}
+/* \\\\\\\\\\ */
+/* Overlays */
+
+#overlay{
+  background: rgba(61,65,71,.15);
+  height: 600px;
+
+  opacity: 1;
+
+}
+
+#introduction-overlay {
+  background: rgba(255,255,255,.40);
+
+
+  opacity: 1;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  margin-top: 4%;
+}
+
+
+/* INTRODUCTION SECTION */
+#introduction-container {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#introduction-container .subheader {
+  color: #4c4c4c;
+
+}
+
 .profile-pic {
 width: 600px;
 
 }
+
+/* \\\\\\\\\\\\\\\ */
