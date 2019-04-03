@@ -14,23 +14,24 @@
 
 
 <!-- For Medium / Large -->
-<div id="backgroundMain"
+<div id="backgroundPage"
     data-parallax="scroll" data-image-src="assets/black-coffee.jpg">
-  <div id="overlay">
+  <div id="pageOverlay">
     <?php require_once "nav.php" ?>
   <div class="row">
     <div id="introduction-overlay" class="large-12 columns">
-        <?php require_once "introduction.php" ?>
+        <h2>Projects by Ben Newey</h2>
     </div>
   </div>
 </div>
 </div>
 
+
+<?php  require_once "project-grid.php" ?>
 <br/>
 <br/>
 <br/>
 
-<?php //require_once "project-grid.php" ?>
 
 <div id="footer" >
 <?php require_once "footer.php" ?>

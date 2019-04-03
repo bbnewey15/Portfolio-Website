@@ -9,7 +9,7 @@
 
 
 
-
+<!-- IMAGE / INTRODUCTION SECTION -->
 <!-- For small screens -->
 
 
@@ -25,12 +25,20 @@
   </div>
 </div>
 </div>
+<!-- END OF IMAGE INTRO SECTION -->
+
 
 <br/>
 <br/>
 <br/>
+
+
+<!-- CONTENT SECTION -- >
 
 <?php //require_once "project-grid.php" ?>
+
+<!-- END OF CONTENT SECTION -->
+
 
 <div id="footer" >
 <?php require_once "footer.php" ?>

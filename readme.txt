@@ -9,6 +9,10 @@ Foundation framework
 information/tutorials used--
 https://www.youtube.com/watch?v=s6vuSVgX-Bk
 https://foundation.zurb.com/templates.html
+audio player
+https://webdesign.tutsplus.com/tutorials/create-a-customized-html5-audio-player--webdesign-7081
 
+Parallax
+http://pixelcog.github.io/parallax.js/
 Docs
 https://foundation.zurb.com/sites/docs/
