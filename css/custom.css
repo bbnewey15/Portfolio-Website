@@ -7,11 +7,18 @@
 
 }
 
+#backgroundMainSm {
+  background-image: url("../assets/black-coffee-sm.jpg");
+  background-size:cover;
+  height: 400px;
+
+}
+
 /* NAVAGRATION */
 
 .top-bar {
     background: rgba(35, 35, 35, 0.78);
-    overflow: visible;
+
 }
 
 .top-bar ul {
@@ -53,9 +60,10 @@
 
 /* INTRODUCTION SECTION */
 #introduction-container {
-  padding-top: 50px;
+  padding-top: 5%;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 6%;
 }
 
 #introduction-container .subheader {
@@ -65,7 +73,7 @@
 
 .profile-pic {
 width: 600px;
-
+border-radius: 50%;
 }
 
 /* \\\\\\\\\\\\\\\ */

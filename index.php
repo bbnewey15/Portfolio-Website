@@ -12,9 +12,11 @@
 <div class="title-bar-title">Menu</div>
 </div>
 
+<!-- For small screens -->
 
 
-<div id="backgroundMain" class="show-for-large, show-for-medium">
+<!-- For Medium / Large -->
+<div id="backgroundMain" data-interchange="[assets/black-coffee-sm.jpg, small], [assets/black-coffee.jpg, medium], [assets/black-coffee.jpg, large]">
   <div id="overlay">
     <?php require_once "nav.php" ?>
   <div class="row">
@@ -29,12 +31,16 @@
 
 
 
-<br>
 
 
-<?php require_once "project-grid.php" ?>
 
+
+
+<?php //require_once "project-grid.php" ?>
+
+<div id="footer" >
 <?php require_once "footer.php" ?>
+</div>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>

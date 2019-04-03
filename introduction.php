@@ -1,6 +1,6 @@
 <div id="introduction-container" class="row">
   <div class="hide-for-small-only medium-3 large-3 columns ">
-  <img src="assets/ben_profile_img2.jpg" class="profile-pic" alt="picture of space" >
+  <img src="assets/ben_profile_img_sm.jpg" class="profile-pic" alt="picture of space" >
   </div>
 <div class="medium-9 large-6 columns ">
 <h1>Ben B Newey</h1>

@@ -3,7 +3,7 @@
 <hr>
 </div>
 <div class="row column">
-<p class="lead">Trending Planetary Destinations</p>
+<p class="lead">Projects</p>
 </div>
 
 
