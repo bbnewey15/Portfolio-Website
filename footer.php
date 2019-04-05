@@ -29,11 +29,11 @@
 </ul>
 </div>
 </div>
-<div class="row">
+<div id="copyright" class="row">
 
-<div class="medium-6 columns">
+<div  class="medium-6 columns">
 <ul class="menu float-right">
-<li class="menu-text">Copyright 2019</li>
+<li class="menu-text">&copy; Copyright 2019</li>
 </ul>
 </div>
 </div>
