@@ -7,7 +7,7 @@
 </div>
 
 
-<div class="row small-up-1 medium-up-2 large-up-2">
+<!--<div class="row small-up-1 medium-up-2 large-up-2">
   <div class="column">
   <div class="callout">
   <p>AWOL</p>
@@ -25,7 +25,26 @@
   </div>
   </div>
 
-</div>
-<div class="row column">
-<a class="button hollow expanded">Load More</a>
+
+</div>-->
+<html ng-app="phonecatApp">
+<head>
+
+
+  <script src="app.js"></script>
+</head>
+<body ng-controller="PhoneListController">
+
+  <ul>
+    <li ng-repeat="phone in phones">
+      <span>{{phone.name}}</span>
+      <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
+
+</body>
+</html>
+
+
+
 </div>

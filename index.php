@@ -53,8 +53,8 @@
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="js/vendor/foundation.js"></script>
 <script src="js/parallax.js-1.5.0/parallax.js"></script>
-<script>
-      $(document).foundation();
-    </script>
+<script src="js/angular-1.7.8/angular.js"></script>
+<script src="js/app.js"></script>
+
 </body>
 </html>
