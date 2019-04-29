@@ -5,7 +5,8 @@
 <head>
   <?php require_once "header.php" ?>
 </head>
-<body>
+
+<body ng-app="projectGrid">
 
 
 
@@ -26,9 +27,11 @@
 </div>
 </div>
 
-
-<?php  require_once "project-grid.php" ?>
-
+<div class="row">
+  <ui-view>
+    <?php  require_once "project-grid.php" ?>
+  </ui-view>
+</div>
 <br/>
 <br/>
 <br/>
@@ -42,6 +45,7 @@
 <script src="js/vendor/foundation.js"></script>
 <script src="js/parallax.js-1.5.0/parallax.js"></script>
 <script src="js/angular-1.7.8/angular.js"></script>
+<script src="https://unpkg.com/@uirouter/angularjs/release/angular-ui-router.js"></script>
 <script src="js/app.js"></script>
 <script src="js/project-grid.js"></script>
 

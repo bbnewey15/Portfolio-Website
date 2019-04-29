@@ -16,3 +16,6 @@ Parallax
 http://pixelcog.github.io/parallax.js/
 Docs
 https://foundation.zurb.com/sites/docs/
+
+Angularjs / php tutorials
+https://www.techiediaries.com/building-websites-php-angularjs/

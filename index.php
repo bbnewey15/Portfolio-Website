@@ -31,16 +31,27 @@
 <div id="mainContent">
   <div class="row">
     <div class="columns"><h2> Welcome to my personal website! </h2></div>
+
+  </div>
+  <div class="row">
+    <div class="columns" style="text-align:center;"><p> This website is a space for me to be able to share all of my creativity in one place. <br/><br/>From an early age, I have always had the following two passions:  </p></div>
+
   </div>
 <div class="row small-up-1 medium-up-2 large-up-2">
   <div class="columns">
     <div class="callout">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="row">
+        <h3 style="text-align: center">Projects</h3>
+    <p>It is important to me to stay relavant with technologies as they become popular. That is why I take personal time to work on projects using these new technologies. </p>
+    </div>
     </div>
   </div>
   <div class="columns">
     <div class="callout">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="row">
+        <h3 style="text-align: center">Music</h3>
+    <p>One of my main passions in life is music! I enjoy everything about it: listening, dissecting, and creating. Since I first learned how to play guitar, I have spent my time recording and mixing.</p>
+  </div>
   </div>
   </div>
 </div>
@@ -54,6 +65,7 @@
 <script src="js/vendor/foundation.js"></script>
 <script src="js/parallax.js-1.5.0/parallax.js"></script>
 <script src="js/angular-1.7.8/angular.js"></script>
+ <script src="https://unpkg.com/@uirouter/angularjs/release/angular-ui-router.js"></script>
 <script src="js/app.js"></script>
 
 </body>

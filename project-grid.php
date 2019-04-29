@@ -1,4 +1,4 @@
-
+<div class="project-grid" ng-controller="ProjectListController">
 <div class="row column">
 <hr>
 </div>
@@ -7,44 +7,31 @@
 </div>
 
 
-<!--<div class="row small-up-1 medium-up-2 large-up-2">
-  <div class="column">
-  <div class="callout">
-  <p>AWOL</p>
-  <p><img src="https://placehold.it/400x370&text=Pegasi B" ></p>
-  <p class="lead">Play AWOL - A simple game created from scratch!  </p>
-  <p class="subheader">Build using Box2D engine and C++ </p>
-  </div>
-  </div>
-  <div class="column">
-  <div class="callout">
-  <p>Pegasi B</p>
-  <p><img src="https://placehold.it/400x370&text=Pegasi B" ></p>
-  <p class="lead">Project 2</p>
-  <p class="subheader">Description</p>
-  </div>
-  </div>
 
-
-</div>-->
-<html ng-app="phonecatApp">
 <head>
 
 
-  <script src="app.js"></script>
-</head>
-<body ng-controller="PhoneListController">
 
-  <ul>
-    <li ng-repeat="phone in phones">
-      <span>{{phone.name}}</span>
-      <p>{{phone.snippet}}</p>
+</head>
+
+<!-- recently changed body to div -->
+
+
+  <a class="nav-link" ui-sref="main" ui-sref-active="active">Main</a>
+    <a class="nav-link" ui-sref="single" ui-sref-active="active">Single</a>
+
+
+  <ul class="wrapper">
+    <li  ng-repeat="project in projects">
+      <div class="box callout">
+        <p>{{project.name}}</p>
+        <div class="box-img"><img src="https://placehold.it/400x370&text=Pegasi B" ></div>
+        <div class="box-text">
+          <p class="lead">{{project.headline}} </p>
+          <p class="subheader">{{project.description}}</p>
+        </div>
+      </div>
+
     </li>
   </ul>
-
-</body>
-</html>
-
-
-
 </div>

@@ -1,33 +1,45 @@
 
-/*
-var myApp = angular.module('spicyApp1', []);
 
-myApp.controller('SpicyController', ['$scope', function($scope) {
-    $scope.spice = 'very';
+var projectGrid = angular.module('projectGrid', ['ui.router']);
 
-    $scope.chiliSpicy = function() {
-        $scope.spice = 'chili';
-    };
-
-    $scope.jalapenoSpicy = function() {
-        $scope.spice = 'jalapeño';
-    };
-}]);
-*/
-var phonecatApp = angular.module('phonecatApp', []);
-
-// Define the `PhoneListController` controller on the `phonecatApp` module
-phonecatApp.controller('PhoneListController', function PhoneListController($scope) {
-  $scope.phones = [
+// Define the `ProjectListController` controller on the `projectGrid` module
+projectGrid.controller('ProjectListController', function ProjectListController($scope) {
+  $scope.projects = [
     {
-      name: 'Nexus S',
-      snippet: 'Fast just got faster with Nexus S.'
+      name: 'AWOL',
+      headline: 'Build using Box2D engine and C++ ',
+      description: 'Build using Box2D engine and C++ '
     }, {
-      name: 'Motorola XOOM™ with Wi-Fi',
-      snippet: 'The Next, Next Generation tablet.'
+      name: 'Project 2',
+      headline: 'Project 2 headline',
+      description: 'Build using Box2D engine and C++ '
     }, {
-      name: 'MOTOROLA XOOM™',
-      snippet: 'The Next, Next Generation tablet.'
+      name: 'Project 3',
+      headline: 'Project 3 headline here',
+      description: 'Build using Box2D engine and C++ '
     }
   ];
+});
+
+projectGrid.config(function ($stateProvider,$urlRouterProvider) {
+
+    var mainState = {
+        name: 'main',
+        url: '/',
+      templateUrl: 'project-grid.php'
+    }
+
+    var singleState = {
+        name: 'single',
+        url: '/single',
+        templateUrl: 'single-project.php'
+    }
+
+
+
+
+        $stateProvider.state(mainState);
+        $stateProvider.state(singleState);
+        $urlRouterProvider.otherwise('/');
+
 });
