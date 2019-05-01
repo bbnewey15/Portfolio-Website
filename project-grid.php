@@ -1,4 +1,4 @@
-<div class="project-grid" ng-controller="ProjectListController">
+<div class="project-grid">
 <div class="row column">
 <hr>
 </div>
@@ -18,12 +18,12 @@
 
 
   <a class="nav-link" ui-sref="main" ui-sref-active="active">Main</a>
-    <a class="nav-link" ui-sref="single" ui-sref-active="active">Single</a>
+
 
 
   <ul class="wrapper">
     <li  ng-repeat="project in projects">
-      <div class="box callout">
+      <div class="box callout" ui-sref="single({pr: project.name})" ui-sref-active="active"  >
         <p>{{project.name}}</p>
         <div class="box-img"><img src="https://placehold.it/400x370&text=Pegasi B" ></div>
         <div class="box-text">

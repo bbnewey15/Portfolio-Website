@@ -189,6 +189,17 @@ border-radius: 50%;
     text-align:center;
 }
 
+.project-grid .subheader {
+
+  max-height: 73px;
+  overflow:hidden;
+}
+.project-grid .lead {
+
+  max-height: 100px;
+  overflow:hidden;
+}
+
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 /* Single Project css */
@@ -224,4 +235,23 @@ border-radius: 50%;
 
 .single-project .box-img img {
     text-align:center;
+}
+
+
+/* Single Project Detail */
+.work-feature-block {
+  padding: 10px 0;
+  border: 0px;
+
+}
+
+.work-feature-block-image {
+  display: block;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.singleText {
+padding: 15px 30px 0px 30px;
+
 }
